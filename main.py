@@ -118,7 +118,7 @@ def _engine() -> FaceEngine:
 @app.get("/health", tags=["System"])
 async def health() -> dict[str, Any]:
     """Liveness probe — returns 200 if the server and model are ready."""
-    return {"status": "ok", "model": "buffalo_l"}
+    return {"status": "ok", "model": "buffalo_s"}
 
 
 @app.post("/register", response_model=RegisterResponse, tags=["Biometric"])

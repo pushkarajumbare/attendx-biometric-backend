@@ -24,7 +24,7 @@ DET_SCORE_MIN      = float(os.getenv("FACE_DET_SCORE_MIN",   "0.65"))
 BLUR_THRESHOLD     = float(os.getenv("BLUR_THRESHOLD",        "35.0"))
 BRIGHTNESS_MIN     = float(os.getenv("BRIGHTNESS_MIN",        "25.0"))
 BRIGHTNESS_MAX     = float(os.getenv("BRIGHTNESS_MAX",       "240.0"))
-INSIGHTFACE_MODEL  = os.getenv("INSIGHTFACE_MODEL",          "buffalo_l")
+INSIGHTFACE_MODEL  = os.getenv("INSIGHTFACE_MODEL", "buffalo_s")
 INSIGHTFACE_CTX_ID = int(os.getenv("INSIGHTFACE_CTX_ID",    "-1"))   # -1=CPU, 0=GPU
 
 
