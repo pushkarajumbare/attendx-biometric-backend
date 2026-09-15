@@ -20,6 +20,6 @@ if __name__ == "__main__":
         "main:app",
         host=host,
         port=port,
-        reload=True,   # auto-reload on code changes during development
+        reload=False,   # auto-reload on code changes during development
         log_level="info",
     )
